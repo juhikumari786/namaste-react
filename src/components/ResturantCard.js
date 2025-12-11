@@ -1,12 +1,12 @@
 // for cloudnary image ep-4 34 min left
 const ReasturantCard = (props) =>{
-  const {name,cuisines,avgRating,costForTwo,sla} = props.resData;
+  const {name,cuisines,avgRating,costForTwo,sla,cloudinaryImageId} = props.resData;
   return(
     <div className="res-card" style={{backgroundColor: "red"}}>
     <img
       className="res-logo"
       alt="res-logo"
-      src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/9/16/022d0348-e0dd-4a4f-a646-70cd4514837b_1207210.jpg"
+      src= {cloudinaryImageId}
     />
     {console.log(props.resData)}
     <h3>{name}</h3>
