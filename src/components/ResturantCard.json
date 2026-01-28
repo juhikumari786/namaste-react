@@ -1,0 +1,57 @@
+[
+  {
+    "id": "101",
+    "name": "Meghna Biryani",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/MeghnaBiryani",
+    "costForTwo": "₹400 for two",
+    "cuisines": ["Biryani", "North Indian"],
+    "avgRating": 4.5,
+    "sla": {
+      "deliveryTime": 30
+    }
+  },
+  {
+    "id": "102",
+    "name": "KFC",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/KFC",
+    "costForTwo": "₹500 for two",
+    "cuisines": ["Fast Food", "Burgers"],
+    "avgRating": 3.8,
+    "sla": {
+      "deliveryTime": 25
+    }
+  },
+  {
+    "id": "103",
+    "name": "Domino's Pizza",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/Dominos",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Pizza", "Italian"],
+    "avgRating": 4.2,
+    "sla": {
+      "deliveryTime": 20
+    }
+  },
+  {
+    "id": "104",
+    "name": "Burger King",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/BurgerKing",
+    "costForTwo": "₹300 for two",
+    "cuisines": ["Burgers", "American"],
+    "avgRating": 4.0,
+    "sla": {
+      "deliveryTime": 22
+    }
+  },
+  {
+    "id": "105",
+    "name": "Sweet Truth",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/SweetTruth",
+    "costForTwo": "₹250 for two",
+    "cuisines": ["Desserts", "Bakery"],
+    "avgRating": 4.6,
+    "sla": {
+      "deliveryTime": 18
+    }
+  }
+]

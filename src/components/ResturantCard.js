@@ -1,19 +1,22 @@
 // for cloudnary image ep-4 34 min left
+import { CDN_URL } from "../utils/constants";
 const ReasturantCard = (props) =>{
-  const {name,cuisines,avgRating,costForTwo,sla,cloudinaryImageId} = props.resData;
+  //const {infoname,cuisines,avgRating,costForTwo,sla,cloudinaryImageId} = props.resData;
   return(
     <div className="res-card" style={{backgroundColor: "red"}}>
     <img
       className="res-logo"
       alt="res-logo"
-      src= {cloudinaryImageId}
+      src={`${CDN_URL}${props.resData.cloudinaryImageId}`}
+      
     />
-    {console.log(props.resData)}
-    <h3>{name}</h3>
-    <h4>{cuisines.join(", ")}</h4>
-    <h4>{avgRating} stars</h4>
-    <h4>{costForTwo}</h4>
-    <h4>{sla.deliveryTime} min</h4>
+    {console.log(props.resData.info,"info......................")}
+    <h3>{props.resData.name}</h3>
+    <h4>{props.resData.cuisines.join(", ")}</h4>
+    
+    <h4>{props.resData.avgRating} stars</h4>
+    <h4>{props.resData.costForTwo}</h4>
+    <h4>{props.resData.sla.deliveryTime} min</h4>
     </div>
   )
 }

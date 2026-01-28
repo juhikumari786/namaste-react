@@ -2,6 +2,7 @@ import resList from "../utils/mockData";
 import ReasturantCard from "./ResturantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   useEffect(() => {
@@ -70,17 +71,25 @@ const Body = () => {
   // const setListOfResturants6 = arr[1];
 
   const fetchData = async () => {
-    const data = await fetch(
-      "https://mocki.io/v1/db4821cb-43af-4a26-87e0-b4e863c60e8c"
-    );
+    // const data = await fetch(
+    //   "https://mocki.io/v1/970387b0-a3dd-4f44-b767-b231f50f7584"
+    // );
+    const data = await fetch("https://namastedev.com/api/v1/listRestaurants");
     const json = await data.json();
-    console.log(json, "json..........");
-    setListOfResturants(json);
-    setFilteredListOfResturants(json);
+    console.log(
+      json.data.data.cards[1].card.card.gridElements.infoWithStyle.restaurants,
+      "json.........."
+    );
+    setListOfResturants(
+      json.data.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+    );
+    setFilteredListOfResturants(
+      json.data.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+    );
   };
   const [listOfResturants, setListOfResturants] = useState([]);
-    const [filteredListOfResturants, setFilteredListOfResturants] = useState([]);
-    const [searchText, setSearchText] = useState("");
+  const [filteredListOfResturants, setFilteredListOfResturants] = useState([]);
+  const [searchText, setSearchText] = useState("");
 
   // Conditional rendering
   // if(listOfResturants.length === 0){
@@ -92,22 +101,27 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
-      <div className="search">
-      <input type="text" className="search-box" value ={searchText}
-      onChange={(e) =>{
-        setSearchText(e.target.value)
-      }}
-       />
-        <button onClick={()=>{
-          console.log(searchText)
-           const filteredResturant = listOfResturants.filter(
-            (res) => res.name.toLowerCase().includes(searchText.toLowerCase())
-          );
+        <div className="search">
+          <input
+            type="text"
+            className="search-box"
+            value={searchText}
+            onChange={(e) => {
+              setSearchText(e.target.value);
+            }}
+          />
+          <button
+            onClick={() => {
+              console.log(searchText);
+              const filteredResturant = listOfResturants.filter((res) =>
+                res.info.name.toLowerCase().includes(searchText.toLowerCase())
+              );
 
-          setFilteredListOfResturants(filteredResturant)
-        }}>
-        Search
-        </button>
+              setFilteredListOfResturants(filteredResturant);
+            }}
+          >
+            Search
+          </button>
         </div>
         <button
           className="filter-btn"
@@ -124,9 +138,10 @@ const Body = () => {
       </div>
 
       <div className="res-container">
-        {filteredListOfResturants.map((resturant) => (
-          <ReasturantCard resData={resturant} key={resturant.id} />
-        ))}
+        {filteredListOfResturants.map((resturant) => {
+          console.log(resturant, "456785678567");
+          return <Link key={resturant.info.id} to = {"/restaurants/" + resturant.info.id}><ReasturantCard resData={resturant.info}  /></Link>;
+        })}
       </div>
     </div>
   );

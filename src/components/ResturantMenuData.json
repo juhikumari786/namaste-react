@@ -1,0 +1,301 @@
+{
+    "card": {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Recommended",
+            "itemCards": [
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "62375607",
+                            "name": "Original Whopper Chicken(XL size Bun)",
+                            "category": "Burgers, Wraps & Tacos",
+                            "description": "Our Original Whopper with Flame Grilled Chicken Patty, Onions, Lettuce, Tomatoes (Seasonal), Gherkins, Creamy And Smoky Sauces With Xxl Buns. Qty: 280 Gms| Kcal: 667.2 | Carbs 59.1 Gms| Sugar: 8.7 Gms| Fat: 36.3 Gms| Saturated fat: 8.1 Gms| Protein: 26.2 Gms| Sodium: 1018.7 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/523da59d-365f-47bc-bb93-5583508104e9_c9077a2b-eab2-4acf-85f0-d7a357c4757a.jpgImage preview",
+                            "price": 20900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.7",
+                                    "ratingCount": "32 ratings",
+                                    "ratingCountV2": "32"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "120224753",
+                            "name": "Crispy Veg Burger",
+                            "category": "Burgers, Wraps & Tacos",
+                            "description": "Our Best Seller - New Premium Black & White Sesame Bun with Crispy Veg Patty, Fresh Onion and Signature Sauce. Qty: 137 Gms| Kcal: 362 | Carbs 53.4 Gms| Sugar: 6.5 Gms| Fat: 12.8 Gms| Saturated fat: 4.9 Gms| Protein: 8.4 Gms| Sodium: 798.2 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/4389cb8d-93e5-4dd5-8013-73a927dd6b31_622133db-f6cc-4f88-ba37-118df0b143ce.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 7000,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.3",
+                                    "ratingCount": "4641 ratings",
+                                    "ratingCountV2": "4.6K+"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "122270463",
+                            "name": "Crispy Chicken Burger",
+                            "category": "Burgers, Wraps & Tacos",
+                            "description": "New Premium Black & White Sesame Bun with Crispy Chicken Patty, Fresh Onion and Signature Sauce. Qty: 125 Gms| Kcal: 359.1 | Carbs 44.3 Gms| Sugar: 7.5 Gms| Fat: 15.1 Gms| Saturated fat: 4.8 Gms| Protein: 11.5 Gms| Sodium: 592.4 Mg Contains: Gluten, Soybean, Milk, Sesame seeds.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/2ea3296b-2776-42b2-b3f7-ba17b0fbd43c_363816e0-8fbb-4fb6-8dbb-12d55d80b954.jpgImage preview",
+                            "price": 9900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.3",
+                                    "ratingCount": "2481 ratings",
+                                    "ratingCountV2": "2.5K+"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "120224752",
+                            "name": "Crispy Veg Double Patty Burger",
+                            "category": "Burgers, Wraps & Tacos",
+                            "description": "Double up our best selling crispy veg burger, now with new Premium Black & White Sesame Bun Qty: 204 Gms| Kcal: 531.4 | Carbs 70.6 Gms| Sugar: 9.1 Gms| Fat: 22.7 Gms| Saturated fat: 9.2 Gms| Protein: 11.2 Gms| Sodium: 1068 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/5965c1c3-c079-41d7-a35e-5394b0822f6d_cb654bd9-dccd-4493-85a0-dc6cf1007653.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 9900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "1055 ratings",
+                                    "ratingCountV2": "1.1K+"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "121733202",
+                            "name": "Crispy Chicken Double Patty Burger",
+                            "category": "Burgers, Wraps & Tacos",
+                            "description": "Our best-selling burger with Double crispy chicken patty, onion, classic mayo sauce and new premium Black & White Sesame Bun. Qty: 182 Gms| Kcal: 535.1 | Carbs 52.7 Gms| Sugar: 10.2 Gms| Fat: 28.3 Gms| Saturated fat: 10.4 Gms| Protein: 17.4 Gms| Sodium: 887.1 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/f00d2a08-be31-43b9-b613-3db884e1fbec_2e7229bb-29bc-41e8-aac3-4cef642aab62.jpgImage preview",
+                            "price": 13900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "755 ratings",
+                                    "ratingCountV2": "755"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "101198481",
+                            "name": "King Fries",
+                            "category": "Sides & Snacks",
+                            "description": "The Perfect Crispy Partner Qty: 156 Gms| Kcal: 455 | Carbs 609.48 Gms| Sugar: 0 Gms| Fat: 19.7 Gms| Saturated fat: 9.31 Gms| Protein: 8 Gms| Sodium: 723.7 Mg Contains: Gluten",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/fefae94a-53cd-421c-9f1f-d0f642949728_2ddc8be1-0a65-430d-9de8-542fae4ce739.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 13900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.5",
+                                    "ratingCount": "1185 ratings",
+                                    "ratingCountV2": "1.2K+"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "101198479",
+                            "name": "Medium Fries",
+                            "category": "Sides & Snacks",
+                            "description": "The Perfect Crispy Partner. Qty: 114 Gms| Kcal: 332.5 | Carbs 445.39 Gms| Sugar: 0 Gms| Fat: 14.4 Gms| Saturated fat: 6.8 Gms| Protein: 5.9 Gms| Sodium: 528.8 Mg Contains: Gluten",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/fefae94a-53cd-421c-9f1f-d0f642949728_2ddc8be1-0a65-430d-9de8-542fae4ce739.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 11900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "693 ratings",
+                                    "ratingCountV2": "693"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "75333762",
+                            "name": "King Peri Peri Fries",
+                            "category": "Sides & Snacks",
+                            "description": "Crispy Fries With Tangy Peri Peri Spice. Qty: 161 Gms| Kcal: 467.8 | Carbs 611.7 Gms| Sugar: 0.9 Gms| Fat: 20 Gms| Saturated fat: 9.3 Gms| Protein: 8.4 Gms| Sodium: 1193.7 Mg Contains: Gluten, Soybean",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/fa747205-3c4d-497c-a948-65f3c224a4cf_11129959-8182-4b8c-bbb5-db49665fba19.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 15900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.3",
+                                    "ratingCount": "214 ratings",
+                                    "ratingCountV2": "214"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "23932298",
+                            "name": "Chocolate Thick Shake",
+                            "category": "BK Café (Coffee & Shakes)",
+                            "description": "Qty: Gms300 ML| Kcal: 496.08 | Carbs 87.69 Gms| Sugar: 61.44 Gms| Fat: 11.28 Gms| Saturated fat: 7.17 Gms| Protein: 10.95 Gms| Sodium: 10.68 Mg Contains: , Soybean , Milk",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/cddbd1f0-c2fc-4af3-a108-b482cc0027e2_0564277b-594b-4aa9-a7cd-6796803092fc.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 18900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.5",
+                                    "ratingCount": "493 ratings",
+                                    "ratingCountV2": "493"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "120716625",
+                            "name": "Crispy Veg Double Patty Burger+Fries(M)",
+                            "category": "Exclusive Deals (Save upto 40%)",
+                            "description": "Crispy Veg Double Patty Burger+Fries(M) Qty: 318 Gms| Kcal: 863.9 | Carbs 516 Gms| Sugar: 9.1 Gms| Fat: 37.1 Gms| Saturated fat: 16 Gms| Protein: 17.1 Gms| Sodium: 1596.8 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/6ca680cf-d5f0-41eb-ab25-d06762871215_cdbfe4dc-ddaf-4bb3-b2db-2156bfcb81c2.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 18900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.9",
+                                    "ratingCount": "30 ratings",
+                                    "ratingCountV2": "30"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "116431013",
+                            "name": "Premium Family Feast for 4 - Chicken",
+                            "category": "Party Specials (Save upto 37%)",
+                            "description": "Chicken Whopper + Fiery Chicken + Crispy Chicken + Chicken Crunchy Taco + 2 Med Fries + 1 Dip + Peri Peri Sachet + Coca Cola Medium + Chocolate Thick Shake; Serves 4 or More Kcal: 3321.6 | Carbs 1228.2 Gms| Sugar: 147.2 Gms| Fat: 141.8 Gms| Saturated fat: 49.1 Gms| Protein: 89.2 Gms| Sodium: 5008.5 Mg Contains: Gluten, Soybean, Milk, Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/19/a64813e3-a235-48cf-9349-ac1e94362b76_537e1618-05f9-4e7d-a65b-fcb3d4f96b34.jpgImage preview",
+                            "isVeg": 0,
+                            "price": 89900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "2 ratings",
+                                    "ratingCountV2": "2"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "107798523",
+                            "name": "4 Crispy Veg + 2 Medium Fries",
+                            "category": "Friends & Family Combo (Save upto 20%)",
+                            "description": "4 Crispy Veg + 2 Medium Fries Qty: 728 Gms| Kcal: 2101.2 | Carbs 1068.1 Gms| Sugar: 29.9 Gms| Fat: 89.2 Gms| Saturated fat: 32.7 Gms| Protein: 57.6 Gms| Sodium: 3427.2 Mg Contains: Gluten, Soybean , Milk , Sesame seeds",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/42495fcf-8f3f-425c-a1e2-8d8c2cec0e45_6c1ec2ef-34b7-4f93-a422-52c63bc5ace6.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 40000,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "84 ratings",
+                                    "ratingCountV2": "84"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "62156575",
+                            "name": "Crispy Veg Double Patty + Crispy Veg Double Patty",
+                            "category": "Friends & Family Combo (Save upto 20%)",
+                            "description": "Crispy Veg Double Patty + Crispy Veg Double Patty",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/6ef18e36-f988-4b85-8fa2-75e1fa72406a_86684d36-3c2d-471a-a9cc-082870edc314.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 19800,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.4",
+                                    "ratingCount": "727 ratings",
+                                    "ratingCountV2": "727"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                        "info": {
+                            "id": "70208023",
+                            "name": "Veg Whopper Deluxe + Veg Makhani Burst",
+                            "category": "Friends & Family Combo (Save upto 20%)",
+                            "description": "Veg Whopper Deluxe + Veg Makhani Burst",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/21/240052e5-aa74-4fca-a76e-e44dda2fed37_6e6f3974-41fe-4e04-a741-c1c82ae7d812.jpgImage preview",
+                            "isVeg": 1,
+                            "price": 22900,
+                            "ratings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "1 rating",
+                                    "ratingCountV2": "1"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
